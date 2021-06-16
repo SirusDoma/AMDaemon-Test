@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')"/>
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">x64</Platform>
+        <ProjectGuid>{050644E2-51E9-4513-A367-8E662AE98968}</ProjectGuid>
+        <OutputType>Exe</OutputType>
+        <AppDesignerFolder>Properties</AppDesignerFolder>
+        <RootNamespace>Dummy</RootNamespace>
+        <AssemblyName>Dummy</AssemblyName>
+        <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+        <FileAlignment>512</FileAlignment>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+        <IntermediateOutputPath>..\..\Temp\Dummy</IntermediateOutputPath>
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <DefineConstants>TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <OutputPath>..\..\Build\Release\</OutputPath>
+        <PlatformTarget>x64</PlatformTarget>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+        <IntermediateOutputPath>..\..\Temp\Dummy</IntermediateOutputPath>
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <OutputPath>..\..\Build\Debug\</OutputPath>
+        <PlatformTarget>x64</PlatformTarget>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="AMDaemon.NET, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>Libs\AMDaemon.NET.dll</HintPath>
+        </Reference>
+        <Reference Include="System"/>
+        <Reference Include="System.Core"/>
+        <Reference Include="System.Data"/>
+        <Reference Include="System.Xml"/>
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="Program.cs"/>
+        <Compile Include="Properties\AssemblyInfo.cs"/>
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="Libs\.gitignore"/>
+        <Content Include="Libs\AMDaemon.NET.dll"/>
+        <ContentWithTargetPath Include="Libs\amdaemon_api.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <TargetPath>amdaemon_api.dll</TargetPath>
+        </ContentWithTargetPath>
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
+</Project>

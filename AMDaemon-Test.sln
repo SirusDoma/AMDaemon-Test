@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dummy", "Source\Dummy\Dummy.csproj", "{050644E2-51E9-4513-A367-8E662AE98968}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMF-Loader", "Source\MMF-Loader\MMF-Loader.csproj", "{745960E3-C1BB-4A0A-A673-A664E43333FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMF-Dumper", "Source\MMF-Dumper\MMF-Dumper.csproj", "{169D65BE-E29F-4209-97B2-394A580CD2E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{050644E2-51E9-4513-A367-8E662AE98968}.Release|x64.ActiveCfg = Release|x64
+		{050644E2-51E9-4513-A367-8E662AE98968}.Release|x64.Build.0 = Release|x64
+		{050644E2-51E9-4513-A367-8E662AE98968}.Debug|x64.ActiveCfg = Debug|x64
+		{050644E2-51E9-4513-A367-8E662AE98968}.Debug|x64.Build.0 = Debug|x64
+		{169D65BE-E29F-4209-97B2-394A580CD2E1}.Release|x64.ActiveCfg = Release|x64
+		{169D65BE-E29F-4209-97B2-394A580CD2E1}.Release|x64.Build.0 = Release|x64
+		{169D65BE-E29F-4209-97B2-394A580CD2E1}.Debug|x64.ActiveCfg = Debug|x64
+		{169D65BE-E29F-4209-97B2-394A580CD2E1}.Debug|x64.Build.0 = Debug|x64
+		{745960E3-C1BB-4A0A-A673-A664E43333FC}.Release|x64.ActiveCfg = Release|x64
+		{745960E3-C1BB-4A0A-A673-A664E43333FC}.Release|x64.Build.0 = Release|x64
+		{745960E3-C1BB-4A0A-A673-A664E43333FC}.Debug|x64.ActiveCfg = Debug|x64
+		{745960E3-C1BB-4A0A-A673-A664E43333FC}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+EndGlobal
