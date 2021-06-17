@@ -6,7 +6,7 @@ Full experiment journey can be seen in [here](https://lab.cxo2.me/what-is-amdaem
 ## Build Instructions ##
 
 1. Make sure to place required libs inside `Source\Dummy\Libs`
-2. Open the solution file with your favorite IDE and Build the solutions
+2. Open the solution file with your favorite IDE and Build the solution
 3. The executable can be found in `Build\<Build Config>\`
 
 ## Usage ##
@@ -26,8 +26,8 @@ Full experiment journey can be seen in [here](https://lab.cxo2.me/what-is-amdaem
 
 1. Dump Memory-Mapped files (see above instructions)
 2. Make sure that dumped file is located in build folder then Start `MMF-Loader` project
-3. Start `Dummy` project to test the loaded file or use [`Process Explorer`](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer) to observe the MMF handles.
+3. Start `Dummy` project to test the loaded file or use [`Process Explorer`](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer) to observe the MMF handles
 
 ## License ##
 
-[No License / Public Domain](https://github.com/SirusDoma/AMDaemon-Test/blob/master/LICENSE).
+[No License / Public Domain](https://github.com/SirusDoma/AMDaemon-Test/blob/master/LICENSE)
