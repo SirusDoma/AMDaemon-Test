@@ -1,7 +1,6 @@
 # AMDaemon Test #
 
-An experimental artifact of `amdaemon.exe` memory-mapped file.  
-Full experiment journey can be seen in [here](https://lab.cxo2.me/what-is-amdaemon/) (Warning: rubbish grammar and writing ahead).
+An experimental artifact of `amdaemon.exe` memory-mapped file.
 
 ## Build Instructions ##
 
